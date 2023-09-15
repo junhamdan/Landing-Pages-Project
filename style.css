@@ -1,0 +1,1764 @@
+body {
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar Start */
+
+.navbar .fa-solid {
+  line-height: 50px;
+  color: #234cad;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background: #f2f6ff;
+  margin-right: 120px;
+}
+
+.navbar .fa-solid:hover {
+  border: 2px solid #234cad;
+  transition: 0.1s;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.btnLogin {
+  box-sizing: border-box;
+  width: 135px;
+  height: 50px;
+  margin-right: 90px;
+  border: 2px solid #234cad;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #234cad;
+  background: #fff;
+}
+
+.btnLogin:hover {
+  background: #f2f6ff;
+  border-radius: 25px;
+  width: 135px;
+  height: 50px;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.btnSignup {
+  background: #f2f6ff;
+  border-radius: 25px;
+  width: 135px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #234cad;
+}
+
+.btnSignup:hover {
+  border: 2px solid #234cad;
+  transition: 0.1s;
+  transform: scale(1.1);
+}
+
+#header a {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #234cad;
+}
+
+#header a:hover {
+  color: #234cad;
+  transition: 0.1s;
+  transform: scale(1.2);
+}
+
+/* Navbar End */
+
+/* Banner Start */
+
+#banner {
+  color: #234cad;
+  margin-top: 70px;
+}
+
+#banner .container {
+  height: auto;
+  background: #f2f6ff;
+  border-radius: 60px;
+}
+
+.bannerTitle {
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 108px;
+  margin-left: 100px;
+}
+
+#banner p {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+.btnGetApp {
+  background: #f2f6ff;
+  border-radius: 32.5px;
+  width: 200px;
+  height: 65px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #234cad;
+  border: 2px solid #234cad;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btnGetApp:hover {
+  background: #fff;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.box1 {
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 36px;
+}
+
+.box2 {
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.box3 {
+  width: 130px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 25px;
+  margin-top: -35px;
+  margin-left: 50px;
+}
+
+.box4 {
+  width: 276px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.box5 {
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.box6 {
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.box7 {
+  width: 75px;
+  height: 65px;
+  padding-top: 10px;
+  background: #ffffff;
+  border-radius: 20px 20px 0 0;
+  margin-top: 93px;
+  margin-left: 25px;
+}
+
+.box8 {
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 25px;
+  margin-left: 390px;
+  margin-top: -200px;
+}
+
+.hover:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+/* Banner End */
+
+/* Cards Start */
+#cards {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#cards h5 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #234cad;
+}
+
+#cards p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #234cad;
+}
+
+.cardsLeft {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 42%;
+  height: auto;
+  margin-right: 14%;
+}
+
+.cardsRight {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 44%;
+  height: auto;
+}
+
+/* Cards Start */
+
+/* Newslatter Start */
+
+#newsletter {
+  margin-top: 5%;
+  color: #234cad;
+}
+
+.newsletter-main {
+  height: 383px;
+  background: #f2f6ff;
+  border-radius: 60px;
+  text-align: center;
+}
+
+#newsletter .title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+#newsletter p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#newsletter input {
+  margin-top: 35px;
+  width: 500px;
+  height: 65px;
+  background: #ffffff;
+  border-radius: 17.5px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+}
+
+#newsletter input:focus {
+  border: 3px solid #234cad;
+  transition: 0.2s;
+}
+
+::placeholder {
+  font-size: 99px;
+  color: #234cad;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+#newsletter button {
+  width: 45px;
+  height: 45px;
+  background: #234cad;
+  margin-left: -60px;
+  border-radius: 12.5px;
+  color: white;
+  border: none;
+}
+
+#newsletter button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+/* Newslatter End */
+
+/* Footer Start */
+
+#footer {
+  color: #234cad;
+}
+
+#footer .card {
+  border: none;
+}
+
+#footer h3 {
+  color: #234cad;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 49px;
+}
+
+#footer li {
+  list-style: none;
+  text-decoration: none;
+}
+
+#footer li a {
+  text-decoration: none;
+  color: #234cad;
+}
+
+#footer li a:hover {
+  text-decoration: underline;
+}
+/* Footer End */
+/* CSS RIKI SECTION C */
+/* about */
+.conten {
+  margin-top: 10%;
+}
+.about {
+  width: 100%;
+  height: 550px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kiri {
+  margin: 40px;
+  margin-right: 70px;
+  padding: 20px;
+  padding-top: 60px;
+  width: 390px;
+  height: 420px;
+  color: #234cad;
+}
+
+.kiri span {
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.kiri p {
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.get {
+  width: 200px;
+  height: 65px;
+  border-radius: 32.5px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  border: 2px solid #234cad;
+  cursor: pointer;
+  color: #234cad;
+  background-color: white;
+}
+
+.get:hover {
+  background-color: #234cad;
+  color: white;
+}
+
+.kanan {
+  padding: 80px;
+  width: 575px;
+  height: 575px;
+  background-color: #f2f6ff;
+  border-color: black;
+  border-radius: 60px;
+  color: #234cad;
+  overflow: hidden;
+}
+
+.satu {
+  display: inline-flex;
+  margin-left: 12px;
+}
+
+.dua {
+  display: inline-flex;
+  margin-left: 12px;
+}
+
+.tiga {
+  display: inline-flex;
+  margin-left: 12px;
+}
+
+.isi {
+  padding: 12px;
+  margin: 13px;
+  width: 276px;
+  height: 160px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.icon {
+  font-size: 21px;
+  color: #234cad;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.6px solid #234cad;
+}
+
+.daily {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.daily p {
+  margin-top: 5px;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.daily span {
+  font-size: 16px;
+}
+
+.atas {
+  display: flex;
+  padding: 15px;
+}
+
+.bawah {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.bawah a {
+  display: flex;
+  text-decoration: none;
+}
+
+.bawah .item {
+  font-size: 10px;
+  color: #234cad;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f6ff;
+}
+
+.item:hover {
+  background-color: white;
+}
+
+/* pricing */
+
+.conten2 {
+  margin-top: 100px;
+}
+
+.prising {
+  margin: 20px;
+  padding: 20px;
+  color: #234cad;
+}
+
+.judul {
+  text-align: center;
+  height: 100px;
+}
+
+.prising .judul span {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.prising .judul p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.isiprising {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 380px;
+  height: 380px;
+  margin: 10px;
+  background-color: #f2f6ff;
+  border-radius: 60px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box span {
+  margin: 30px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.box i {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+}
+
+.box .klik {
+  width: 274px;
+  height: 75px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 37.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  color: #234cad;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.klik:hover {
+  background-color: #234cad;
+  color: white;
+}
+
+.boxtengah {
+  width: 380px;
+  height: 380px;
+  margin: 10px;
+  background-color: white;
+  border: 3px solid #234cad;
+  border-radius: 60px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxtengah span {
+  margin: 30px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.boxtengah i {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+}
+
+.boxtengah .klik {
+  width: 274px;
+  height: 75px;
+  margin: 10px;
+  background-color: white;
+  border: 3px solid #234cad;
+  border-radius: 37.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  color: #234cad;
+}
+
+.boxtengah a {
+  text-decoration: none;
+}
+
+.boxtengah .klik:hover {
+  background-color: #234cad;
+  color: white;
+}
+
+@media (max-width: 880px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .kanan {
+    margin: 10px;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+  }
+
+  .kiri {
+    height: 330px;
+    margin-top: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .isiprising {
+    flex-wrap: wrap;
+  }
+
+  .isiprising .box {
+    margin-top: 30px;
+  }
+
+  .isiprising .boxtengah {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .kiri {
+    width: 100%;
+    height: auto;
+  }
+
+  .kanan {
+    width: 100%;
+    height: auto;
+    margin-right: 12%;
+  }
+
+  .kanan .satu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kanan .dua {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kanan .tiga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .isiprising {
+    margin-top: 50px;
+  }
+
+  .judul {
+    margin-bottom: 150px;
+  }
+}
+
+/* CSS RIKI */
+/* CSS REHAN */
+/* PRODUCT FEATURES 1 */
+.kotak-kiri {
+  background: #f2f6ff;
+  border-radius: 60px;
+  width: 575px;
+  height: 575px;
+  margin-left: 213px;
+  margin-top: 30px;
+}
+
+.bungkus {
+  padding-top: 108px;
+}
+
+/* CHAT BOX 1 */
+.konten {
+  background: #ffffff;
+  border-radius: 25px;
+  width: 438px;
+  height: 125px;
+  top: 108px;
+  margin-left: 69px;
+  border-radius: 25px;
+}
+
+.notif {
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+  border-radius: 80%;
+  width: 20px;
+  height: 20px;
+  margin-left: 50px;
+}
+
+.notif .n-1 {
+  color: #fff;
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 7px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.notif-1 {
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+  border-radius: 80%;
+  width: 16px;
+  height: 16px;
+  margin-left: 30px;
+}
+
+.notif-1 .n-2 {
+  color: #fff;
+  margin-left: 4px;
+  margin-top: 1px;
+  font-size: 6px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8px;
+}
+
+.chat-isi-1 {
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+.buletan {
+  position: absolute;
+  background: #f2f6ff;
+  width: 75px;
+  height: 75px;
+  border-radius: 80%;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.aj {
+  position: absolute;
+  height: 29px;
+  padding-top: 45px;
+  padding-left: 48px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #234cad;
+}
+
+.time {
+  position: absolute;
+  height: 17px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 10px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-right: 25px;
+  margin-left: 300px;
+}
+
+.name {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #234cad;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+.isi-100 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #234cad;
+  margin-left: 70px;
+}
+
+/* CHAT BOX 2 */
+.konten-2 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 350px;
+  height: 100px;
+  margin-left: 113px;
+  margin-top: 25px;
+}
+
+.buletan-2 {
+  position: absolute;
+  background: #f2f6ff;
+  width: 60px;
+  height: 60px;
+  border-radius: 80%;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.dl {
+  position: absolute;
+  height: 24px;
+  padding-top: 30px;
+  padding-left: 38px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #234cad;
+}
+
+.chat-isi-2 {
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+.name-1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #234cad;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.isi-1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+}
+
+.time-1 {
+  position: absolute;
+  height: 17px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 10px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-right: 15px;
+  margin-left: 240px;
+}
+
+/* CHAT BOX 3 */
+.konten-3 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 262px;
+  height: 75px;
+  margin-left: 157px;
+  margin-top: 25px;
+}
+
+.buletan-3 {
+  position: absolute;
+  background: #f2f6ff;
+  width: 45px;
+  height: 45px;
+  border-radius: 80%;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.mc {
+  position: absolute;
+  height: 17px;
+  padding-top: 28px;
+  padding-left: 32px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: #234cad;
+}
+
+.chat-isi-3 {
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+
+.name-2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #234cad;
+  margin-left: 50px;
+  padding-top: 18px;
+}
+
+.isi-2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 16px;
+  color: #234cad;
+  margin-left: 50px;
+}
+
+.time-2 {
+  position: absolute;
+  height: 17px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 9px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-right: 15px;
+  margin-left: 180px;
+}
+
+/* SECTION KANAN */
+.kotak-kanan {
+  margin-left: 150px;
+  margin-top: 150px;
+  position: static;
+}
+
+.judul-1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #234cad;
+  text-align: left;
+}
+
+.sub-judul {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #234cad;
+  margin-top: 25px;
+}
+
+.get-100 {
+  margin-top: 50px;
+  width: 200px;
+  height: 65px;
+  border-radius: 32.5px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  border: 2px solid #234cad;
+  cursor: pointer;
+  color: #234cad;
+  background-color: white;
+}
+
+/* PRODUCT FEATURES 2 */
+.transform {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #234cad;
+  margin-top: 150px;
+  margin-bottom: 25px;
+}
+
+.our-mobile {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #234cad;
+  margin-bottom: 100px;
+}
+
+/* ISI PRODUCT FEATURES 2 */
+.bungkus-2 {
+  background: #f2f6ff;
+  border-radius: 60px;
+  width: 1240px;
+  height: 575px;
+  margin: auto;
+}
+
+.kloter-1 {
+  padding-top: 55px;
+}
+
+.kloter-bawah {
+  padding-bottom: 100px;
+}
+
+/* KLOTER 1 */
+.isi-kloter-1 {
+  background: #ffffff;
+  border-radius: 20px;
+  height: 75px;
+  width: 75px;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.file {
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 24px;
+  height: 30px;
+}
+
+.konten-002 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 350px;
+  height: 100px;
+  margin-top: 1px;
+}
+
+.buletan-002 {
+  position: absolute;
+  background: #f2f6ff;
+  border-radius: 80%;
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.sb {
+  position: absolute;
+  height: 24px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #234cad;
+}
+
+.chat-isi-02 {
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+.name-01 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.isi-01 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+}
+
+.time-01 {
+  position: absolute;
+  height: 17px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 20px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-right: 15px;
+  margin-left: 240px;
+}
+
+/* ISI KLOTER 2 */
+.section-kotak-1 {
+  background: #ffffff;
+  border-radius: 25px;
+  width: 276px;
+  height: 160px;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.bulet {
+  box-sizing: border-box;
+  position: absolute;
+  border: 2px solid #234cad;
+  border-radius: 80%;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.calender {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.bawah-isi {
+  margin-left: 30px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.bawah-isi .item {
+  font-size: 12px;
+  color: rgb(24, 24, 129);
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(232, 255, 255);
+}
+
+.chat-isi-002 {
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+.name-11 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.isi-11 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+}
+
+/* KLOTER 2 UPLOADING DOCUMENT */
+.buletan-upload {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 350px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: -30px;
+}
+
+.buletan-0002 {
+  position: absolute;
+  background: #f2f6ff;
+  width: 46px;
+  height: 46px;
+  border-radius: 80%;
+  margin-left: 20px;
+  margin-top: 31px;
+}
+
+.upload-img {
+  width: 20px;
+  height: 17px;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+
+.chat-isi-up {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.upload-txt {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+  padding-top: 30px;
+  margin-left: 50px;
+}
+
+.up-txt {
+  font-family: "Basic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+}
+
+/* Message Saved */
+.message {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 350px;
+  height: 100px;
+  margin-top: 130px;
+  margin-left: 150px;
+}
+
+.buletan-message {
+  position: absolute;
+  background: #f2f6ff;
+  width: 46px;
+  height: 46px;
+  border-radius: 80%;
+  margin-left: 20px;
+  margin-top: 31px;
+}
+
+.upload-img {
+  width: 20px;
+  height: 17px;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+
+.chat-isi-message {
+  margin-left: 30px;
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+
+.upload-message {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+}
+
+.text-message {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+  margin-left: 50px;
+}
+
+/* KLoter 3 */
+.pesan {
+  background: #ffffff;
+  border-radius: 20px;
+  height: 75px;
+  width: 75px;
+  margin-left: 430px;
+  margin-top: 20px;
+}
+
+.pesan-jpg {
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 30px;
+  height: 35px;
+}
+
+/*  Amy Smith*/
+.amy {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 350px;
+  height: 100px;
+  margin-top: -27px;
+  margin-left: -100px;
+}
+
+.buletan-amy {
+  position: absolute;
+  background: #f2f6ff;
+  border-radius: 80%;
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.as {
+  position: absolute;
+  height: 24px;
+  padding-top: 17px;
+  padding-left: 18px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #234cad;
+}
+
+/* LAST UPLOAD */
+.kotak-up-v2 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 130px;
+  height: 160px;
+  margin-top: 2px;
+  margin-left: 520px;
+}
+
+.bulet-up {
+  position: absolute;
+  background: #f2f6ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.upload-2 {
+  width: 20px;
+  height: 17px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.txt-up-2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #234cad;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 2000px) {
+  .kotak-kanan {
+    margin-left: 0;
+  }
+  .bungkus-2 {
+    margin-left: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* SECTION KIRI */
+  .kotak-kiri {
+    margin-left: 50px;
+    width: 100%;
+  }
+  /* CHAT BOX 1 */
+  .konten {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* CHAT BOX 2 */
+  .konten-2 {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* CHAT BOX 3 */
+  .konten-3 {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* SECTION KANAN */
+  .kotak-kanan {
+    margin-top: 150px;
+    margin-left: 15px;
+  }
+  .judul-1 {
+    align-content: center;
+    text-align: center;
+    padding-left: 1px;
+  }
+  .sub-judul {
+    text-align: center;
+  }
+  .get-100 {
+    margin-left: 250px;
+  }
+
+  /* PRODUCT FEATURES 2 */
+  .bungkus-2 {
+    width: 95%;
+    height: max-content;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .isi-kloter-1 {
+    margin-left: 150px;
+  }
+  .section-kotak-1 {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .message {
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 130px;
+  }
+  .buletan-upload {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .amy {
+    width: 60%;
+    margin-left: -30px;
+    margin-top: -20px;
+  }
+  .pesan {
+    margin-left: 320px;
+    margin-top: 30px;
+  }
+  .kotak-up-v2 {
+    margin-top: 20px;
+    margin-left: 450px;
+  }
+  .time,
+  .time-01,
+  .time-1,
+  .time-2 {
+    display: none;
+  }
+
+  /* Product Features 2 */
+  .dokumen {
+    margin-left: 300px;
+  }
+  .konten-002 {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  /* SECTION KIRI */
+  .product1 {
+    display: inline-block;
+  }
+  .kotak-kiri {
+    margin-left: 20px;
+    width: max-content;
+  }
+  .time,
+  .time-01,
+  .time-1,
+  .time-2 {
+    display: none;
+  }
+  /* CHAT BOX 1 */
+  .konten {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* CHAT BOX 2 */
+  .konten-2 {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* CHAT BOX 3 */
+  .konten-3 {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* SECTION KANAN */
+  .kotak-kanan {
+    margin-top: 100px;
+    margin-left: 15px;
+  }
+  .judul-1 {
+    text-align: center;
+    padding-left: 1px;
+  }
+  .sub-judul {
+    text-align: center;
+  }
+  .get-100 {
+    margin-left: 100px;
+  }
+
+  /* PRODUCT FEATURES 2 */
+  .bungkus-2 {
+    width: 95%;
+    height: max-content;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .isi-kloter-1 {
+    margin-left: 150px;
+  }
+  .konten-002 {
+    margin-left: -20px;
+  }
+  .section-kotak-1 {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .message {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 140px;
+  }
+  .buletan-upload {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .amy {
+    width: 80%;
+    margin-top: -30px;
+    margin-left: -100px;
+  }
+  .pesan {
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .kotak-up-v2 {
+    margin-top: 20px;
+    margin-left: 300px;
+  }
+  .dokumen {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* SECTION KIRI */
+  .product1 {
+    display: inline-block;
+  }
+  .kotak-kiri {
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: max-content;
+  }
+  .time,
+  .time-01,
+  .time-1,
+  .time-2 {
+    display: none;
+  }
+  /* CHAT BOX 1 */
+  .konten {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* CHAT BOX 2 */
+  .konten-2 {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* CHAT BOX 3 */
+  .konten-3 {
+    margin-left: 20px;
+    width: 90%;
+  }
+  /* SECTION KANAN */
+  .kotak-kanan {
+    margin-top: 100px;
+    margin-left: 15px;
+  }
+  .judul-1 {
+    text-align: center;
+    padding-left: 1px;
+  }
+  .sub-judul {
+    text-align: center;
+    justify-content: center;
+  }
+  .get-100 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  /* PRODUCT FEATURES 2 */
+  .bungkus-2 {
+    width: 95%;
+    height: max-content;
+    margin-left: 20px;
+  }
+  .dokumen {
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    margin-bottom: 20px;
+  }
+  .konten-002 {
+    margin-left: 15px;
+    width: 90%;
+  }
+  .message {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .section-kotak-1 {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .buletan-upload {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .amy {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .pesan {
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .kotak-up-v2 {
+    margin-top: 20px;
+    margin-left: 140px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .kotak-kiri {
+    margin-left: 10px;
+    width: 95%;
+  }
+  .get-100 {
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .bungkus-2 {
+    width: 300px;
+    margin-left: 30px;
+  }
+  .kotak-up-v2 {
+    margin-left: 100px;
+  }
+  .amy {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .dokumen {
+    margin-left: -30px;
+    margin-bottom: 20px;
+  }
+  .transform {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .our-mobile {
+    margin-left: 30px;
+  }
+  .get-100 {
+    margin-left: 100px;
+  }
+}

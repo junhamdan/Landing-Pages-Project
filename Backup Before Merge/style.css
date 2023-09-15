@@ -1,0 +1,358 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: ;
+}
+
+
+
+
+
+/* Navbar Start */
+
+
+.navbar .fa-solid {
+    line-height: 50px;
+    color: #234CAD;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: #F2F6FF;
+    margin-right: 120px;
+}
+
+.navbar .fa-solid:hover {
+    border: 2px solid #234CAD;
+    transition: 0.1s;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.btnLogin {
+    box-sizing: border-box;
+    width: 135px;
+    height: 50px;
+    margin-right: 90px;
+    border: 2px solid #234CAD;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #234CAD;
+    background: #FFF;
+}
+
+.btnLogin:hover {
+    background: #F2F6FF;
+    border-radius: 25px;
+    width: 135px;
+    height: 50px;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.btnSignup {
+    background: #F2F6FF;
+    border-radius: 25px;
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #234CAD;
+}
+
+.btnSignup:hover {
+    border: 2px solid #234CAD;
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+#header a {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #234CAD;
+}
+
+#header a:hover {
+
+    color: #234CAD;
+    transition: 0.1s;
+    transform: scale(1.2);
+}
+
+/* Navbar End */
+
+/* Banner Start */
+
+#banner {
+    color: #234CAD;
+    margin-top: 70px;
+}
+
+#banner .container {
+    height: auto;
+    background: #F2F6FF;
+    border-radius: 60px;
+}
+
+.sideLeft {}
+
+.bannerTitle {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 108px;
+    margin-left: 100px;
+}
+
+#banner p {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.btnGetApp {
+    background: #F2F6FF;
+    border-radius: 32.5px;
+    width: 200px;
+    height: 65px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #234CAD;
+    border: 2px solid #234CAD;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.btnGetApp:hover {
+    background: #fff;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.sideRight {}
+
+
+.box1 {
+    width: 75px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 36px;
+}
+
+
+.box2 {
+    width: 350px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.box3 {
+    width: 130px;
+    height: 160px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin-top: -35px;
+    margin-left: 50px;
+}
+
+.box4 {
+    width: 276px;
+    height: 160px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.box5 {
+    width: 350px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.box6 {
+    width: 350px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.box7 {
+    width: 75px;
+    height: 65px;
+    padding-top: 10px;
+    background: #FFFFFF;
+    border-radius: 20px 20px 0 0;
+    margin-top: 93px;
+    margin-left: 25px;
+}
+
+.box8 {
+    width: 350px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin-left: 390px;
+    margin-top: -200px;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/* Banner End */
+
+/* Cards Start */
+#cards {
+    margin-top: 10%;
+}
+
+#cards h5 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #234CAD;
+}
+
+#cards p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #234CAD;
+}
+
+.cardsLeft {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 42%;
+    height: auto;
+    margin-right: 14%;
+
+}
+
+
+
+.cardsRight {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 44%;
+    height: auto;
+}
+
+
+/* Cards Start */
+
+/* Newslatter Start */
+
+#newsletter {
+    margin-top: 150px;
+    color: #234CAD;
+}
+
+.newsletter-main {
+    height: 383px;
+    background: #F2F6FF;
+    border-radius: 60px;
+    text-align: center;
+}
+
+#newsletter .title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#newsletter p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#newsletter input {
+    margin-top: 35px;
+    width: 500px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 17.5px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+}
+
+#newsletter input:focus {
+    border: 3px solid #234CAD;
+    transition: 0.2s;
+}
+
+::placeholder {
+    font-size: 99px;
+    color: #234CAD;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+#newsletter button {
+    width: 45px;
+    height: 45px;
+    background: #234CAD;
+    margin-left: -60px;
+    border-radius: 12.5px;
+    color: white;
+    border: none;
+}
+
+#newsletter button:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+/* Newslatter End */
+
+/* Footer Start */
+
+#footer {
+    color: #234CAD;
+}
+
+#footer .card {
+    border: none;
+}
+
+#footer h3 {
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 49px;
+}
+
+#footer li {
+    list-style: none;
+    text-decoration: none;
+}
+
+#footer li a {
+    text-decoration: none;
+    color: #234CAD;
+}
+
+#footer li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer End */
